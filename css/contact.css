@@ -1,0 +1,125 @@
+#contact {
+    text-align: center;
+    padding: 3% 10%; 
+}
+
+.contact-flex-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contact-details-div { 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 45%;
+    margin: 3% 0;
+}
+.contact-inner-flex-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4% 0;
+    text-align: left;
+}
+.contact-details-icon-div {
+    
+    background-color: rgb(33, 150, 243);
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contact-details-icon-div i {
+    font-size: 2rem;
+}
+.contact-details-text-div {
+    padding-left: 5%;
+}
+.contact-details-text-div h3 {
+    font-size: 1.8rem;
+    color: rgb(33, 150, 243);
+}
+.contact-details-text-div p {
+    color: black;
+}
+
+
+.contact-form-div {
+    background-color: white;
+    color: rgb(33, 150, 243);
+    width: 45%;
+    text-align: left;
+    padding: 2%;
+    margin: 3% 0;
+}
+
+.contact-form-div input,
+.contact-form-div textarea {
+    display: block;
+    border: 0;
+    border-bottom: 1.5px solid black;
+    margin: 10% 0;
+    font-size: 1.2rem;
+    width: 90%;
+    padding-left: 10px;
+}
+.contact-form-div h3 {
+    font-size: 1.8rem;
+}
+.contact-form-div input:focus{
+    outline: none;
+}
+.contact-form-div button{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.loader {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+@media(max-width:700px) {
+    
+    #contact {
+        padding: 5%;
+    }
+    .contact-details-icon-div {
+        height: 60px;
+        width: 60px;
+    }
+    .contact-details-icon-div i {
+        font-size: 1.5rem;
+    }
+    .contact-flex-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-details-div {
+        width: 90%;
+        margin: 3;
+    }
+    .contact-form-div {
+        width: 90%;
+        margin: 3%;
+    }
+    #product {
+        padding: 1.3%;
+        width: 46%;
+    }
+}

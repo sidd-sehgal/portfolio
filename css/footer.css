@@ -1,0 +1,56 @@
+/*  */
+
+.footer-nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center 
+}
+
+.footer-nav-a {
+    margin: .7% 2%; 
+    color: White;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+}
+.footer-nav-a:hover {
+    text-decoration-color: white;
+    color: white;
+}
+
+.footer-intro {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-intro h1 {
+    margin-bottom: 3%;
+    font-size: 3rem !important;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.footer-intro p {
+    text-align: center;
+    width: 80%;
+    color: rgb(93, 93, 93);
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    word-spacing: 10px;
+    line-height: 2;
+}
+
+.footer-bottom {
+    background-color: #343a40;
+}
+.footer-bottom p {
+    text-align: center;
+    margin: 0;
+    padding: 1.5%;
+    color: white;
+    word-spacing: 5px;
+}

@@ -1,0 +1,126 @@
+#intro-section {
+    background-color: white;
+    padding: 5% 10%;
+}
+.intro-flex-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro-img-div {
+    width: 25%;
+}
+.intro-img-div img {
+    width: 100%;
+}
+.intro-text-div {
+    width: 70%;
+    font-family: 'Nunito', sans-serif;;
+}
+.intro-text-div h1 {
+    color: #2196f3;
+    font-weight: 600;
+}
+.intro-text-div h3 span {
+    color: #2196f3;
+    font-weight: 600;
+}
+
+.intro-text-div p {
+    width: 80%;
+    text-align: justify;
+}
+
+.i-t-d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+
+.i-t-d-inner-flex {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #77baef;
+    font-family: sans-serif;
+}
+.i-t-d-inner-flex h3 {
+    font-size: 1.3rem;
+    margin-left: 3%;
+}
+.i-t-d-inner-flex h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .intro-flex-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-img-div {
+        width: 40%;
+        margin: 2%;
+    }
+    .intro-text-div {
+        width: 98%;
+        margin: 2% 1%;
+    }
+    .i-t-d-inner-flex {
+        width: 48%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #intro-section {
+        padding: 5%;
+    }
+    .intro-text-div h1 {
+        font-size: 2rem;
+    }
+    .intro-text-div h3 {
+        font-size: 1.5rem;
+    }
+    .i-t-d-inner-flex h3{
+        font-size: 1.2rem;
+    }
+    .i-t-d-inner-flex h4{
+        font-size: 1.1rem;
+    }
+    .intro-text-div p {
+        width: 95%;
+    }
+    .intro-img-div {
+        width: 45%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .i-t-d-flex {
+        flex-direction: column;
+    }
+    .i-t-d-flex {
+        margin: 0;
+    }
+    .i-t-d-inner-flex {
+        margin: 2% 0;
+    }
+    .i-t-d-inner-flex {
+        width: 75%;
+    }
+    .intro-img-div {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .i-t-d-inner-flex {
+        width: 90%;
+    }
+}

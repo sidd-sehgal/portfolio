@@ -1,0 +1,146 @@
+#services-section {
+    padding: 5% 10%;
+    background-color: antiquewhite;
+}
+
+.services-flex-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.services-inner-flex-div {
+    
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    padding: 2%;
+    margin: 2% 0;
+    border: 4px solid rgb(231, 231, 231);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.services-inner-flex-div:hover {
+    animation-name: service-hover;
+    animation-duration: 2s;
+    border: 4px solid rgb(33, 150, 243);
+}
+@keyframes service-hover {
+    0%   {  }
+    100% {  }
+}
+
+.services-icon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8% 0;
+}
+.services-icon {
+    font-size: 4rem;
+    color: rgb(33, 150, 243);
+}
+
+.service-icon-anim {
+    animation-name: service-icon-an;
+    animation-duration: 1.5s;
+    transform: scale(1);
+}
+@keyframes service-icon-an {
+    0%   { transform: scale(0.5); }
+    15% { transform: scale(1); }
+    30%   { transform: scale(0.5); }
+    45% { transform: scale(1); }
+    60%   { transform: scale(0.5); }
+    75% { transform: scale(1); }
+    90%   { transform: scale(0.5); }
+    100% { transform: scale(1); }
+}
+
+.services-icon-div h4 {
+    text-align: center;
+    margin: 5% 0;
+}
+.service-text-underline {
+    margin-top: 10%;
+    height: 3.8px;
+    background-color: rgb(33, 150, 243);
+    width: 30%;
+}
+.s-t-u-anim {
+    animation-name: s-t-under-anim;
+    animation-duration: 0.8s;
+    width: 100%;
+}
+@keyframes s-t-under-anim {
+    0%   { width: 10%; }
+    100% { width: 100%; }
+} 
+
+@media only screen and (max-width: 1000px) {
+    
+    .services-icon-div h4 {
+        font-size: 1.4rem;
+    }
+    .services-icon {
+        font-size: 3.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .services-inner-flex-div {
+        width: 28%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .services-icon-div h4 {
+        font-size: 1.2rem;
+    }
+    .services-icon {
+        font-size: 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #services-section {
+        padding: 5%;
+    }
+    .services-icon-div h4 {
+        font-size: 1rem;
+    }
+    .services-icon {
+        font-size: 2.4rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .services-icon-div h4 {
+        font-size: 1rem;
+    }
+    .services-icon {
+        font-size: 2.1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .services-inner-flex-div {
+        width: 42%;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .services-inner-flex-div {
+        width: 45%;
+    }
+    
+}
+

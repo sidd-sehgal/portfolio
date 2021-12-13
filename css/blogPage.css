@@ -1,0 +1,94 @@
+#blog-page-section {
+    padding: 5%;
+    background-color: rgb(204, 204, 204);
+}
+.blog-page-heading {
+    margin-bottom: 2%;
+}
+.blog-page-flex-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-page-content-div {
+    padding: 2%;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.blog-page-right-div {
+    height: max-content;
+    width: 28%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1%;
+}
+.blog-right-blog-list-div {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+.b-r-b-l-heading-div{
+    margin-bottom: 5%;
+    width: max-content;
+}
+.b-r-b-l-heading-div h4{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.b-r-b-flex-a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin: 3% 0;
+}
+.b-r-b-flex-a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+.b-r-b-flex-a img{
+    width: 20%;
+}
+.b-r-b-flex-a h5{
+    color: black;
+    margin: 0;
+    padding-left: 1%;
+}
+.b-r-b-flex-a h5:hover {
+    color: #007bff;
+}
+
+.b-p-c-date-p {
+    width: 100%;
+    text-align: right;
+}
+/* SOCIAL SHARE */
+.social-share-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.social-share-div h4 {
+    margin: 0;
+}
+.social-share-a {
+    font-size: 2rem;
+    margin: 0 1%;
+
+}
+
+.s-s-fb {
+    color: #4267B2;
+}
+
+.s-s-tw {
+    color: #1DA1F2;
+}
+
+.s-s-wa {
+    color: #25D366;
+}

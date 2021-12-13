@@ -1,0 +1,22 @@
+#blog-page-top-brand-name-section {
+    padding: 2% 10%;
+    background-color: #323232;
+    display: flex;
+    flex-direction: row;
+}
+.b-p-t-b-n-div {
+    width: auto;
+}
+.b-p-t-b-ad {
+    width: auto;
+}
+.b-p-t-b-n-h1 {
+    color: #2196f3;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.b-p-t-b-n-h1 span{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+}
